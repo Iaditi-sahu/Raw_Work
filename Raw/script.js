@@ -9,7 +9,7 @@ input.addEventListener("keydown", function(elem) {
         li.innerText = task;
 // it will add task value to newly created li
         li.addEventListener("dblclick", function(elem){
-            // double click listner
+            // double click listener
             li.remove();
             // remove or delete
         })

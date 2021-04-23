@@ -7,15 +7,15 @@ body{
 }
 .task-container{
     height: 85vh;
-    background-color: rosybrown;
-    color: white;
+    background-color: rgb(226, 137, 137);
+    color: rgb(231, 220, 220);
     text-align: center;
     font-family: 'Zen Dots', cursive;
 }
 li{
     list-style: none;
     font-size: 1.2rem;
-    background-color: aquamarine;
+    background-color: rgb(155, 223, 200);
     width: 60vh;
     height: 1.5rem;
 }
