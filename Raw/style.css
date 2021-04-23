@@ -3,7 +3,7 @@ body{
 }
 .input-container{
     height: 15vh;
-    background-color: lightcoral;
+    background-color: rgb(241, 114, 114);
 }
 .task-container{
     height: 85vh;

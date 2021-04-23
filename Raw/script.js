@@ -1,7 +1,7 @@
 let input = document.querySelector(".input_box");  
 let ul = document.querySelector(".task-list");
 input.addEventListener("keydown", function(elem) {  
-    //  listerns to events here elem is object
+    //  listeners to events here elem is object
     console.log("event object", elem);
     if(elem.key == "Enter"){
         let task = input.value;
