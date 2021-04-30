@@ -1,26 +1,45 @@
+*{
+    box-sizing: border-box;
+}
 body{
     margin: 0;
+    background-color: #15314b;
 }
 .input-container{
     height: 15vh;
-    background-color: rgb(241, 114, 114);
 }
 .task-container{
     height: 85vh;
-    background-color: rgb(226, 137, 137);
+    /* background-color: rgb(226, 137, 137); */
     color: rgb(231, 220, 220);
     text-align: center;
     font-family: 'Zen Dots', cursive;
 }
-li{
+.task{
     list-style: none;
-    font-size: 1.2rem;
-    background-color: rgb(155, 223, 200);
-    width: 60vh;
-    height: 1.5rem;
+    font-size: 1.25rem;
+    background-color: blue;
+    width: 60vw;
+    height: 3.5rem;
+    padding: 1rem;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
 }
 .input_box{
     font-family: 'Zen Dots', cursive;
     height: 60%;
     font-size: 1.2rem;
+    margin-left: 26vm;
+    display: block;
+    margin: 0 auto;
+    margin-top: 3vh;
+    width: 40vw;
+}
+.instruction{
+    font-size: 1.5rem;
+}
+@media screen(max-width: 884px){
+    .input_box{
+        width: 60vw;
+    }
 }
